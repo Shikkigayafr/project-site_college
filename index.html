@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, 
+          maximum-scale=1, user-scalable=no">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- FONTS END -->
+    <title>WORKOUT | Главная страница</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <nav id="navbar" class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand text-light" style="font-weight: 600!important; opacity: 1!important; font-size: 18px!important;" href="index.html">
+                WORKOUT
+            </a>
+            <a class="navbar-toggler text-light collapseBtn" id="collapseBtn" type="button" data-bs-toggle="collapse" data-bs-target="#collapleBtn">
+                <!-- Меню -->
+                <img src="burger.jfif" alt="" width="26">
+            </a>
+            <div class="collapse navbar-collapse" id="collapleBtn">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                
+            </ul>
+            <ul class="nav navbar-toolbar navbar-right navbar-toolbar-right d-flex justify-content-between">
+                <li class="nav-item">
+                    <a class="nav-link active text-light" href="personal-schedule.html">ТРЕНИРОВКИ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-light" href="schedule.html">РАСПИСАНИЕ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-light" href="articles.html">СТАТЬИ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-light" href="feedback.html">КОНТАКТЫ</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container hren" style="margin-top: 120px">
+        <div class="new-background"></div>
+        <div class="new-content d-flex justify-content-between">
+            <div class="new-icon">
+                NEW
+            </div>
+            <div class="new-text">
+                • Высокоинтенсивная тренировка для сжигания калорий
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="position: relative;">
+        <div class="baba">
+    
+        </div>
+        <div class="slogan-header d-flex justify-content-between">
+            <div class="slogan">
+                Кардио тренировка
+            </div>
+            <div class="time">
+    
+            </div>
+        </div>
+        <div class="slogan-footer">
+            <div class="discount mt-5">
+                Скидка на первое занятие 50%
+            </div>
+            <div class="buttons d-flex">
+                <a href="feedback.html" class="custom-button d-flex justify-content-center align-items-center" style="background: #25AB75;"><span>Начать</span></a>
+                <a href="" class="custom-button d-flex justify-content-center align-items-center" style="background: #191919;margin-left: 35px;"><span>Ознакомиться</span></a>
+            </div>
+        </div>
+    </div>
+    <style>
+        @media (max-width: 767.98px) {
+            .baba, .time {
+                display: none;
+            }
+            .slogan {
+                height: fit-content!important;
+            }
+            .hren {
+                margin-top: 50px!important;
+            }
+        }
+    </style>
+
+    <div class="container" style="margin-top: 100px;">
+        <div class="container-h2">Популярные направления</div>
+        <div class="row justify-content-between" style="margin: 48px 0;">
+            <div class="video" style="background-image: url('image1.png');">
+                <div class="video-gradient"></div>
+                <div class="video-title">Тренажеры</div>
+                <div class="video-time">58:24</div>
+            </div>
+            <div class="video" style="background-image: url('image2.png');">
+                <div class="video-gradient"></div>
+                <div class="video-title">Расстяжка</div>
+                <div class="video-time">58:24</div>
+            </div>
+            <div class="video" style="background-image: url('image3.png');">
+                <div class="video-gradient"></div>
+                <div class="video-title">Йога</div>
+                <div class="video-time">58:24</div>
+            </div>
+            <div class="video" style="background-image: url('image4.png');">
+                <div class="video-gradient"></div>
+                <div class="video-title">Бег</div>
+                <div class="video-time">58:24</div>
+            </div>
+            <div class="video" style="background-image: url('image5.png');">
+                <div class="video-gradient"></div>
+                <div class="video-title">Лифтинг</div>
+                <div class="video-time">58:24</div>
+            </div>
+            <div class="video" style="background-image: url('image6.png');">
+                <div class="video-gradient"></div>
+                <div class="video-title">Анжуманя</div>
+                <div class="video-time">58:24</div>
+            </div>
+        </div>
+        <style>
+            .video {
+                width: 373px;
+                height: 275px;
+                margin-bottom: 101px;
+                border-radius: 10px;
+                background-size: 110%;
+                background-position: center;
+                background-repeat: no-repeat;
+                padding: 0;
+                position: relative;
+                cursor: pointer;
+            }
+            .video-gradient {
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 70%, rgb(0, 0, 0, 1) 100%);
+              
+            }
+            .video-title {
+                position: absolute;
+                bottom: 0;
+                font-size: 40px; font-weight: 600;
+                margin-left: 10px;
+            }
+            .video-time {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                width: 75px;
+                height: 50px;
+                background-color: black;
+                border-top-left-radius: 20px;
+                font-size: 20px; font-weight: 600;
+                text-align: center;
+                line-height: 40px;
+            }
+            @media (max-width: 767.98px) {
+                .video {
+                    width: 100%;
+                    margin-bottom: 30px!important;
+                }
+            }
+        </style>
+    </div>
+
+    <div class="container">
+        <div class="container-h2">Актуальные новости по направлениям</div>
+
+        <div id="tabs" class="tabs mb-5 d-flex justify-content-between">
+            <div id="tab" class="tab tab-selected d-flex justify-content-center align-items-center"><span>ТРЕНАЖЕРЫ</span></div>
+            <div id="tab" class="tab d-flex justify-content-center align-items-center"><span>РАССТЯЖКА</span></div>
+            <div id="tab" class="tab d-flex justify-content-center align-items-center"><span>ЙОГА</span></div>
+            <div id="tab" class="tab d-flex justify-content-center align-items-center"><span>БЕГ</span></div>
+            <div id="tab" class="tab d-flex justify-content-center align-items-center"><span>ЛИФТИНГ</span></div>
+            <div id="tab" class="tab d-flex justify-content-center align-items-center"><span>ОТЖИМАНИЯ</span></div>
+        </div>
+
+        <div class="categories">
+            <div class="row justify-content-between" style="margin: 0 0;">
+                <div class="category" style="background-image: url('categories/1.png');">
+                    <div class="category-text">БЕГОВАЯ ДОРОЖКА</div>
+                </div>
+                <div class="category" style="background-image: url('categories/2.png');">
+                    <div class="category-text">орбитек</div>
+                </div>
+                <div class="category" style="background-image: url('categories/3.png');">
+                    <div class="category-text">степер</div>
+                </div>
+                <div class="category" style="background-image: url('categories/4.png');">
+                    <div class="category-text">бабочка</div>
+                </div>
+                <div class="category" style="background-image: url('categories/5.png');">
+                    <div class="category-text">смита</div>
+                </div>
+                <div class="category" style="background-image: url('categories/6.png');">
+                    <div class="category-text">гравитрон</div>
+                </div>
+            </div>
+        </div>
+        <style>
+            .tabs {
+                margin-top: 55px;
+                width: 100%;
+                height: 61px;
+            }
+            .tab {
+                width: 178px;
+                height: 61px;
+                background-color: #F9F9F9;
+                color: #333333;
+                cursor: pointer;
+            }
+            .tab-selected {
+                background-color: #25AB75;
+                color: #ffffff;
+            }
+            @media (max-width: 767.98px) {
+                .tabs {
+                    flex-direction: column!important;
+                    height: fit-content;
+                }
+                .tab {
+                    width: 100%;
+                    margin-bottom: 5px;
+                    height: 30px;
+                }
+                .category {
+                    background-size: 110%!important;
+                }
+            }
+            .categories {
+                margin-top: 55px;
+                width: 100%;
+                /* height: 595.55px; */
+            }
+            .category {
+                background-color: #898989;
+                width: 378px;
+                height: 282px;
+                margin-bottom: 30px;
+                position: relative;
+                padding: 0;
+                background-position: center;
+                background-size: 101%;
+                background-repeat: no-repeat;
+                transition: background-image 300ms linear;
+            }
+            .category-text {
+                position: absolute;
+                bottom: 30px;
+                width: 100%;
+                text-align: center;
+                text-transform: uppercase;
+                font-size: 24px;
+                font-weight: 400;
+            }
+        </style>
+    </div>
+
+    <div class="container" style="margin-top: 100px;">
+        <div class="container-h2">Статьи про ваше здоровье</div>
+        <div class="articles" style="margin-top: 30px;">
+            <div class="article" style="background-image: url('articles/1.png');">
+                <div class="article-title">тренировка дня: отличный старт для абсолютных новичков</div>
+                <div class="article-description">Главная ошибка начинающих — выбор сложных упражнений и изматывающих тренировок. В этой статье вы найдёте простой и эффективный 30-минутный комплекс, который не заставит задыхаться и проклинать своё желание заниматься спортом. Работайте в своём темпе, отдыхайте, сколько потребуется и получайте удовольствие.</div>
+                <div class="article-button">Читать статью</div>
+            </div>
+            <div class="article" style="background-image: url('articles/2.png');">
+                <div class="article-title">5 правил тренировки xxi века, доказанных наукой</div>
+                <div class="article-description">Наука опровергает популярные спортивные мифы один за другим, и всё больше тренеров и спортсменов отказываются от устаревших методик. Мы разбираем, почему в современном мире фитнеса спокойное кардио не считается лучшим способом похудеть, а для гипертрофии необязательно всё время работать с тяжёлой штангой.</div>
+                <div class="article-button">Читать статью</div>
+            </div>
+            <div class="article" style="background-image: url('articles/3.png');">
+                <div class="article-title">5 привычек, которые убивают пользу от тренировок</div>
+                <div class="article-description">Главная ошибка начинающих — выбор сложных упражнений и изматывающих тренировок. В этой статье вы найдёте простой и эффективный 30-минутный комплекс, который не заставит задыхаться и проклинать своё желание заниматься спортом. Работайте в своём темпе, отдыхайте, сколько потребуется и получайте удовольствие.</div>
+                <div class="article-button">Читать статью</div>
+            </div>
+        </div>
+        <style>
+            .article {
+                width: 100%;
+                height: 322px;
+                margin-bottom: 60px;
+                position: relative;
+                background-repeat: no-repeat;
+            }
+            @media (max-width: 767.98px) {
+                .article {
+                    height: 400px!important;
+                }
+            }
+            .article-title {
+                text-transform: uppercase;
+                font-size: 18px;
+                font-weight: 700;
+                color: #7E7E7E;
+                padding-top: 18px;
+                margin-left: 18px;
+            }
+            .article-description {
+                font-size: 14px;
+                font-weight: 600;
+                color: #BBBBBB;
+                margin-top: 28px;
+                margin-left: 18px;
+            }
+            .article-button {
+                position: absolute;
+                bottom: 22px;
+                left: 22px;
+                width: 200px;
+                height: 39px;
+                border-radius: 10px;
+                display: block;
+                margin-top: 1.3rem;
+                text-align: center;
+                text-decoration: none;
+                color: white;
+                font-style: normal;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 35px;
+                background-color: #25AB75;
+            }
+        </style>
+    </div>
+
+    <div class="container">
+        <div class="container-h2">Отзывы наших клиентов</div>
+
+        <div class="row justify-content-between review-block" style="margin: 50px 0;">
+            <div class="review" style="background-image: url('reviews/1.png');">
+                <div class="review-title">17кг прощайте</div>
+                <div class="review-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam voluptas eius aperiam unde.</div>
+                <div class="user d-flex">
+                    <img src="reviews/user1.png" alt="" width="59" height="57">
+                    <div class="text" style="margin-left: 17px;margin-top: 5px;">
+                        <span style="font-size: 18px;height: 18px;display: block;">Mary Patricia</span>
+                        <span style="font-size: 14px;color: #969BAB;height: 18px; display: block;margin-top: 4px;">Mother of two</span>
+                    </div>
+                </div>
+            </div>
+            <div class="review" style="background-image: url('reviews/2.png');">
+                <div class="review-title">О тренерах</div>
+                <div class="review-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam voluptas eius aperiam unde.</div>
+                <div class="user d-flex">
+                    <img src="reviews/user2.png" alt="" width="59" height="57">
+                    <div class="text" style="margin-left: 17px;margin-top: 5px;">
+                        <span style="font-size: 18px;height: 18px;display: block;">James John</span>
+                        <span style="font-size: 14px;color: #969BAB;height: 18px; display: block;margin-top: 4px;">Mother of two</span>
+                    </div>
+                </div>
+            </div>
+            <div class="review" style="background-image: url('reviews/3.png');">
+                <div class="review-title">О цене</div>
+                <div class="review-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam voluptas eius aperiam unde.</div>
+                <div class="user d-flex">
+                    <img src="reviews/user3.png" alt="" width="59" height="57">
+                    <div class="text" style="margin-left: 17px;margin-top: 5px;">
+                        <span style="font-size: 18px;height: 18px;display: block;">Mary Patricia</span>
+                        <span style="font-size: 14px;color: #969BAB;height: 18px; display: block;margin-top: 4px;">Mother of two</span>
+                    </div>
+                </div>
+            </div>
+            <div class="review" style="background-image: url('reviews/4.png');">
+                <div class="review-title">Лучше чем у конкурентов</div>
+                <div class="review-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam voluptas eius aperiam unde.</div>
+                <div class="user d-flex">
+                    <img src="reviews/user4.png" alt="" width="59" height="57">
+                    <div class="text" style="margin-left: 17px;margin-top: 5px;">
+                        <span style="font-size: 18px;height: 18px;display: block;">James John</span>
+                        <span style="font-size: 14px;color: #969BAB;height: 18px; display: block;margin-top: 4px;">Mother of two</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <style>
+            @media (max-width: 767.98px) {
+                .review-block {
+                    flex-direction: column!important;
+                    justify-content: center!important;
+                }
+                .review {
+                    width: 100%!important;
+                }
+            }
+            .review {
+                width: 449px;
+                height: 343px;
+                border-radius: 10px;
+                background-position: center;
+                background-repeat: no-repeat;
+                margin-bottom: 27px;
+                position: relative;
+                padding-top: 35px;
+                padding-left: 50px;
+            }
+            .review-title {
+                font-size: 38px;
+                font-weight: 600;
+                /* margin-top: 35px;
+                margin-left: 50px; */
+                /* padding: 35px 50px; */
+                color: #C8C8C8;
+                line-height: 40px;
+            }
+            .review-description {
+                
+                margin-top: 20px;
+                /* margin-left: 50px; */
+                font-size: 18px;
+                font-weight: 400;
+                color: #9B9B9B;
+            }
+            .user {
+                position: absolute;
+                bottom: 0;
+                padding-left: 10px;
+                padding-bottom: 36px;
+            }
+        </style>
+    </div>
+    
+    <!-- FOOTER -->
+    <div class="container">
+        <div class="row justify-content-between" style="margin: 0;">
+            <div class="column">
+                <div class="footer-title">Полезные ссылки</div>
+                <div class="footer-content d-flex flex-column" style="padding-top: 26px;">
+                    <p><a href="">Оплата</a></p>
+                    <p><a href="">Акции</a></p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="footer-title">Оплата</div>
+                <div class="footer-content d-flex flex-column" style="padding-top: 26px;">
+                    <a href="" style="margin-bottom: 13px">Продолжая оплату вы соглашаетесь с договором оферты</a>
+                    <div class="cards">
+                        <img src="visa.png" alt="" width="46" height="27">
+                        <img src="mastercard.png" alt="" width="46" height="27" style="margin-left: 10px;">
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="footer-title">контакты</div>
+                <div class="footer-content d-flex flex-column" style="padding-top: 26px;">
+                    <p>8 800 555 35 35</p>
+                    <p>8 800 555 35 35</p>
+                    <p>workout@yandex.ru</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="footer-title">социальные сети</div>
+                <div class="footer-content d-flex flex-column" style="padding-top: 26px;">
+                    <p>Также мы в социальных сетях</p>
+                    <div class="icons">
+                        <img src="youtube.png" alt="" width="27" height="23">
+                        <img src="vk.png" alt="" width="27" height="23">
+                        <img src="facebook.png" alt="" width="27" height="23">
+                        <img src="telegram.png" alt="" width="27" height="23">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2024 nova, All rights reserved.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
+<style>
+    @media (min-width: 1400px) {
+        .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+            max-width: 1200px!important;
+        }
+    }
+    body {
+        background-color: black;
+        font-family: "Poppins", sans-serif;
+        color: white;
+    }
+    nav {
+        font-weight: 400;
+        font-style: normal;
+        padding-top: 60px!important;
+    }
+    nav a {
+        font-size: 12px;
+        opacity: 0.7;
+    }
+    .new-background {
+        position: absolute;
+        width: 329px;
+        height: 36px;
+        background-color: white;
+        opacity: 0.1;
+        border-radius: 200px;
+    }
+    .new-icon {
+        position: relative;
+        width: 46px;
+        height: 26px;
+        background: #25AB75;
+        border-radius: 200px;
+        margin-top: 5px;
+        margin-left: 5px;
+        text-align: center;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 10px;
+        line-height: 27px;
+    }
+    .new-text {
+        font-size: 12px;
+        letter-spacing: 0.5px;
+        text-align: left;
+        opacity: 0.8;
+        width: 220px;
+        margin-right: 30px;
+    }
+    .new-content {
+        width: 329px;
+    }
+    .slogan-header {
+        margin-top: 31px;
+    }
+    .slogan {
+        font-weight: 600;
+        line-height: 170px;
+        letter-spacing: -2px;
+        font-size: 8rem;
+        text-align: left;
+        max-width: 871px;
+        height: 384px;
+    }
+    .baba {
+        width: 780px;
+        height: 1170px;
+        background-image: url('baba.png');
+        position: absolute;
+        top: -230px;
+        right: -55px;
+        z-index: -1;
+    }
+    @media screen and (max-width: 769px) {
+        .slogan {
+            font-size: 4rem;
+            line-height: 70px;
+        }
+    }
+    .time {
+        width: 166px;
+        height: 223px;
+        background-image: url(timer.png);
+        margin-top: 40px;
+    }
+    .discount {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 29px;
+        letter-spacing: 0.5px;
+        text-align: left;
+        opacity: 0.5;
+
+    }
+    .custom-button {
+        width: 200px;
+        height: 70px;
+        border-radius: 10px;
+        display: block;
+        margin-top: 1.3rem;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        font-style: normal;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    a:hover {
+        color: white;
+    }
+    .container-h2 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+</style>
