@@ -1,9 +1,3 @@
-## 🎨 Дизайн-макет в Figma
-
-Дизайн этого проекта был разработан в Figma.  
-Посмотреть макет можно по ссылке:  
-[🔗 Fitness Landing Page — Макет в Figma](https://www.figma.com/design/FWtBQnb8DNfBCLgvKp2pvu/Fitness-Landing-Page--Community-?node-id=0-1&p=f)
-
 # Проектная работа в колледже
 
 Это моя **первая проектная работа**, выполненная во время учёбы в колледже по специальности "Веб-разработчик".
@@ -24,3 +18,9 @@
 - **Шрифты:** Google Fonts (Poppins)
 - **Дизайн:** Figma (макет для вёрстки)
 - **Структура:** Модульная файловая структура с разделением на HTML, CSS, JS и изображения
+
+## 🎨 Дизайн-макет
+
+Дизайн этого лендинга был разработан в Figma.  
+Ознакомиться с макетом можно по ссылке:  
+[🔗 Fitness Landing Page — Макет в Figma](https://www.figma.com/design/FWtBQnb8DNfBCLgvKp2mvu/Fitness-Landing-Page--Community-?node-id=0-1&m=dev&t=QUUcz908k4KfHv8a-1)
